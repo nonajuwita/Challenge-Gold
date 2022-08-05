@@ -1,0 +1,16 @@
+.btn-cari{
+margin-top: 32px;
+}
+.container-pencarian{
+background:white;
+box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 5%);
+border: 2px solid #f0f0f0;
+position:absolute;
+margin-top:350px;
+margin-left:100px;
+border-radius:6px;
+height:110px;
+padding-top:10px;
+
+
+}

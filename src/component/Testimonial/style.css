@@ -1,0 +1,38 @@
+.container-testimonial{
+    margin-top:100px;
+    }
+
+.container-holder{
+height: 270px;
+width: 619px;
+left: -241px;
+top: 1652px;
+border-radius: 8px;
+background:#F1F3FF;
+box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 5%);
+border: 2px solid #f0f0f0;
+
+    }
+
+.corousel-1{
+    height: 270px;
+width: 619px;
+left: -241px;
+top: 1652px;
+border-radius: 8px;
+background:blue;
+}
+
+.card-testi{
+margin-left:10px;
+
+}
+
+.btn-testimoni{
+margin-left:10px;
+}
+
+
+.container-sewa{
+    margin-top:100px;
+}

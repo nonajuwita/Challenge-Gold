@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Cars from "./pages/Cars";
+import DetailCar from "./pages/DetailCar";
+import Home from "./pages/Home";
+import { Routes, Route, Link } from "react-router-dom";
+import Benner from "./component/Benner";
+import Footer from "./component/Footer";
+import Navbar from "./component/Navbar";
+import Pencarian from "./component/Pencarian"
+import CariMobil from "./pages/CariMobil";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+function App (){
+
+  return(
+
+    <div>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/carimobil" element={<CariMobil />} />
+        <Route path="/detailmobil/:id" element={<DetailCar />}/>
+      </Routes>
+
     </div>
-  );
+  )
 }
 
 export default App;
